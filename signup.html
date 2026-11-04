@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1f3a">
+    <title>Create your account | LuminaED</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header class="signup-header">
+        <a class="brand" href="index.html" aria-label="LuminaED home">LuminaED<span>.</span></a>
+        <a class="home-link" href="index.html">Back to home</a>
+    </header>
+
+    <main class="signup-layout">
+        <section class="welcome-panel">
+            <p class="eyebrow">YOUR LEARNING SPACE</p>
+            <h1>Make room for<br><em>better learning.</em></h1>
+            <p class="welcome-copy">Create your LuminaED account and bring your study materials, practice sessions and progress into one place.</p>
+            <div class="welcome-note">
+                <span class="note-mark" aria-hidden="true">✦</span>
+                <p>Study smarter. Understand deeper. Keep moving forward.</p>
+            </div>
+        </section>
+
+        <section class="form-panel" aria-labelledby="form-title">
+            <div class="form-heading">
+                <p class="eyebrow">GET STARTED WITH LuminaED</p>
+                <h2 id="form-title">Create your account</h2>
+                <p>Fill in your details to get started.</p>
+            </div>
+
+            <form id="signup-form">
+                <div class="field">
+                    <label for="fullname">Full name</label>
+                    <input id="fullname" name="fullname" type="text" placeholder="Enter your full name" autocomplete="name" required>
+                </div>
+
+                <div class="field">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text" placeholder="Choose a username" autocomplete="username" minlength="3" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email address</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+                </div>
+
+                <div class="field">
+                    <label for="password">Password</label>
+                    <div class="password-wrap">
+                        <input id="password" name="password" type="password" placeholder="Create a password" autocomplete="new-password" minlength="8" required>
+                        <button class="toggle-password" type="button" data-target="password" aria-label="Show password">Show</button>
+                    </div>
+                    <small class="field-hint">Use at least 8 characters.</small>
+                </div>
+
+                <div class="field">
+                    <label for="confirm-password">Confirm password</label>
+                    <div class="password-wrap">
+                        <input id="confirm-password" name="confirm-password" type="password" placeholder="Enter your password again" autocomplete="new-password" minlength="8" required>
+                        <button class="toggle-password" type="button" data-target="confirm-password" aria-label="Show confirm password">Show</button>
+                    </div>
+                </div>
+
+                <label class="terms">
+                    <input type="checkbox" id="terms" required>
+                    <span>I agree to the <a href="#" aria-label="Terms and conditions (to be added)">Terms and Conditions</a>.</span>
+                </label>
+
+                <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+
+                <button class="submit-button" type="submit">Create account <span aria-hidden="true">→</span></button>
+            </form>
+
+            <p class="signin-prompt">Already have an account? <a href="login.html">Sign in</a></p>
+            <p class="back-link"><a href="index.html">← Return to LuminaED</a></p>
+        </section>
+    </main>
+
+    <footer class="signup-footer">
+        <span>© 2026 LuminaED. All rights reserved.</span>
+        <span>Clarity in every course.</span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-client.js"></script>
+    <script src="signup.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+LuminaED SIGNUP + SUPABASE INTEGRATION
+
+PACKAGE CONTENTS
+- index.html and style.css: landing page and matching stylesheet
+- signup.html and signup.css: signup page with Supabase Auth integration
+- lumina_profiles_trigger.sql: creates each user's profile automatically
+- This setup guide
+
+STEP 1 — ADD SUPABASE CREDENTIALS
+Open signup.html and find:
+  const SUPABASE_URL = "YOUR_SUPABASE_PROJECT_URL";
+  const SUPABASE_PUBLISHABLE_KEY = "YOUR_SUPABASE_PUBLISHABLE_KEY";
+
+Replace them with the Project URL and public publishable key from
+Supabase > Project Settings > API. The publishable key starts with
+sb_publishable_. Never use a secret or service_role key in browser code.
+
+STEP 2 — RUN THE PROFILE TRIGGER
+In Supabase, open SQL Editor, create a new query, paste the contents of
+lumina_profiles_trigger.sql, and run it once.
+
+The trigger inserts id, full_name, and username into public.profiles using
+the signup metadata. This is needed because email-confirmation signup
+normally has no authenticated browser session yet; the browser cannot
+reliably insert into an RLS-protected profile table at that point.
+
+STEP 3 — CHECK AUTH REDIRECT SETTINGS
+Keep Email provider and Confirm email enabled as intended.
+In Supabase Authentication URL Configuration, add your deployed GitHub
+Pages URL to the allowed redirect URLs, for example:
+https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+
+STEP 4 — DEPLOY THE FILES
+Put index.html, style.css, signup.html, and signup.css together in the
+same GitHub Pages site folder. Keep your existing image assets in place:
+nerdbg8.jpg, image1.png, image2.png, image3.png, image4.png, and the
+actual logo image. Those image files were not included in this upload.
+
+STEP 5 — TEST
+1. Open the deployed signup page.
+2. Register with an email address you can access.
+3. Click the confirmation link sent by Supabase.
+4. Check Supabase Authentication > Users.
+5. Check Table Editor > public.profiles for the matching profile row.
+
+IMPORTANT NOTES
+- Your original signup design and CSS layout are preserved.
+- The landing page HTML referred to style.css, while the uploaded file was
+  named style-3.css. This package uses style.css so the reference resolves.
+- The existing signup page links to login.html, which was not among the
+  uploaded files. We can connect the login page when you finish it.
+- The dashboard has not been changed.
+- Username uniqueness is not enforced by the table schema described so far.

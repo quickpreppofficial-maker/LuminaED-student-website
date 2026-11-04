@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1f3a">
+  <meta name="description" content="LuminaED administration and support information.">
+  <title>Administration | LuminaED</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #0b1f3a;
+      --blue: #274975;
+      --blue-mid: #4779bd;
+      --blue-soft: #eaf2fc;
+      --ink: #172d49;
+      --muted: #718198;
+      --paper: #f5f9ff;
+      --line: #e4edf8;
+      --white: #fff;
+      --shadow: 0 16px 40px rgba(11, 31, 58, .07);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; min-width: 320px; background: var(--paper); color: var(--ink);
+      font-family: "DM Sans", system-ui, sans-serif; -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    .site-header {
+      position: relative; z-index: 2; background: rgba(255,255,255,.96);
+      border-bottom: 1px solid var(--line);
+    }
+    .header-inner {
+      width: min(1120px, calc(100% - 48px)); min-height: 82px; margin: auto;
+      display: flex; align-items: center; justify-content: space-between; gap: 20px;
+    }
+    .brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
+    .brand-mark {
+      width: 44px; height: 44px; display: grid; place-items: center; border-radius: 14px;
+      background: var(--navy); color: white; font: 700 1.55rem "Lora", Georgia, serif;
+      box-shadow: 0 7px 16px rgba(11,31,58,.16);
+    }
+    .brand-copy { display: grid; gap: 2px; }
+    .brand-copy strong { color: var(--navy); font: 700 1.35rem "Lora", Georgia, serif; letter-spacing: .075em; }
+    .brand-copy strong span { color: var(--blue-mid); }
+    .brand-copy small { color: var(--muted); font-size: .73rem; }
+    .back-link {
+      display: inline-flex; align-items: center; gap: 8px; padding: 10px 15px;
+      border: 1px solid var(--line); border-radius: 999px; background: white;
+      color: var(--navy); font-size: .86rem; font-weight: 700; text-decoration: none;
+    }
+    .back-link:hover { border-color: #b8cce5; background: #fafdff; }
+    main { width: min(1040px, calc(100% - 48px)); margin: auto; padding: 42px 0 70px; }
+    .hero {
+      position: relative; overflow: hidden; padding: clamp(30px, 6vw, 58px);
+      border-radius: 26px; color: white;
+      background: linear-gradient(112deg, #0b1f3a 0%, #173b65 68%, #285384 100%);
+      box-shadow: 0 20px 45px rgba(11,31,58,.13);
+    }
+    .hero::after {
+      content: "L"; position: absolute; right: 7%; top: 50%; transform: translateY(-55%);
+      color: rgba(255,255,255,.055); font: 700 clamp(12rem, 28vw, 21rem) "Lora", Georgia, serif;
+      line-height: 1; pointer-events: none;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 650px; }
+    .eyebrow { margin: 0 0 12px; color: #a9c9f1; font-size: .7rem; font-weight: 800; letter-spacing: .17em; }
+    h1, h2, h3 { font-family: "Lora", Georgia, serif; }
+    h1 { margin: 0; font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 600; line-height: 1.12; }
+    .hero p:last-child { max-width: 570px; margin: 17px 0 0; color: #d2dfef; line-height: 1.8; }
+    .section-heading { margin: 42px 0 19px; }
+    .section-heading .eyebrow { color: var(--blue-mid); margin-bottom: 7px; }
+    .section-heading h2 { margin: 0; color: var(--navy); font-size: clamp(1.5rem, 3vw, 2rem); }
+    .section-heading p:last-child { margin: 8px 0 0; color: var(--muted); line-height: 1.65; }
+    .info-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .info-card {
+      min-height: 205px; padding: 25px; border: 1px solid var(--line); border-radius: 19px;
+      background: white; box-shadow: 0 5px 18px rgba(11,31,58,.025);
+    }
+    .icon {
+      width: 44px; height: 44px; display: grid; place-items: center; margin-bottom: 17px;
+      border-radius: 13px; background: var(--blue-soft); color: var(--blue); font-size: 1.2rem;
+    }
+    .info-card h3 { margin: 0 0 8px; color: var(--navy); font-size: 1.25rem; }
+    .info-card p { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.7; }
+    .contact-panel {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 18px;
+    }
+    .contact-card {
+      display: flex; align-items: center; gap: 16px; min-width: 0; padding: 21px;
+      border: 1px solid var(--line); border-radius: 17px; background: white;
+      text-decoration: none; box-shadow: 0 5px 18px rgba(11,31,58,.025);
+      transition: box-shadow .18s ease, border-color .18s ease;
+    }
+    .contact-card:hover { border-color: #c8d9ed; box-shadow: var(--shadow); }
+    .contact-icon {
+      flex: 0 0 46px; width: 46px; height: 46px; display: grid; place-items: center;
+      border-radius: 14px; background: var(--blue-soft); color: var(--blue); font-size: 1.25rem;
+    }
+    .contact-copy { min-width: 0; }
+    .contact-copy small { display: block; margin-bottom: 4px; color: var(--muted); font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .contact-copy strong { display: block; overflow-wrap: anywhere; color: var(--navy); font-size: .98rem; }
+    .contact-copy span { display: block; margin-top: 4px; color: var(--blue-mid); font-size: .78rem; }
+    .notice {
+      display: flex; gap: 13px; align-items: flex-start; margin-top: 25px; padding: 18px 20px;
+      border: 1px solid #dce8f6; border-radius: 15px; background: #edf4fc;
+    }
+    .notice-mark { color: var(--blue-mid); font-size: 1.1rem; }
+    .notice p { margin: 0; color: #62758e; font-size: .86rem; line-height: 1.7; }
+    .notice strong { color: var(--navy); }
+    footer { background: var(--navy); color: #c4d2e4; }
+    .footer-inner {
+      width: min(1040px, calc(100% - 48px)); min-height: 120px; margin: auto; padding: 27px 0;
+      display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+    }
+    .footer-brand { color: white; font: 700 1.35rem "Lora", Georgia, serif; letter-spacing: .07em; text-decoration: none; }
+    .footer-brand span { color: #8eb5e7; }
+    .footer-inner p { margin: 5px 0 0; color: #a9bad0; font-size: .8rem; }
+    .footer-inner small { color: #91a6c0; }
+    @media (max-width: 680px) {
+      .header-inner, main, .footer-inner { width: min(100% - 32px, 1040px); }
+      .header-inner { min-height: 74px; }
+      .brand-mark { width: 39px; height: 39px; }
+      .brand-copy strong { font-size: 1.2rem; }
+      .brand-copy small { font-size: .66rem; }
+      .back-link { padding: 9px 11px; font-size: .78rem; }
+      main { padding-top: 25px; }
+      .info-grid, .contact-panel { grid-template-columns: 1fr; }
+      .info-card { min-height: auto; }
+      .footer-inner { align-items: flex-start; flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="dashboard.html" aria-label="LuminaED dashboard">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span class="brand-copy">
+          <strong>LuminaED<span>.</span></strong>
+          <small>Clarity in every course.</small>
+        </span>
+      </a>
+      <a class="back-link" href="dashboard.html"><span aria-hidden="true">←</span> Back to dashboard</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-content">
+        <p class="eyebrow">LuminaED LEARNING HUB</p>
+        <h1 id="page-title">Administration</h1>
+        <p>Find important platform information and get in touch with the LuminaED team for assistance, enquiries or support.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">PLATFORM INFORMATION</p>
+        <h2 id="about-title">A learning space built around you.</h2>
+        <p>LuminaED brings learning resources and academic tools together in one organised space.</p>
+      </div>
+      <div class="info-grid">
+        <article class="info-card">
+          <span class="icon" aria-hidden="true">▤</span>
+          <h3>Learning resources</h3>
+          <p>Access the study materials and academic resources made available through the LuminaED learning hub.</p>
+        </article>
+        <article class="info-card">
+          <span class="icon" aria-hidden="true">◎</span>
+          <h3>Account assistance</h3>
+          <p>Contact the support team if you experience difficulty accessing your account or using the platform.</p>
+        </article>
+        <article class="info-card">
+          <span class="icon" aria-hidden="true">✦</span>
+          <h3>Platform updates</h3>
+          <p>Use the official contact channels below for enquiries about new features, resources and platform updates.</p>
+        </article>
+        <article class="info-card">
+          <span class="icon" aria-hidden="true">✓</span>
+          <h3>Student support</h3>
+          <p>Reach out with questions, feedback or suggestions that could make the LuminaED learning experience better.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="contact-title">
+      <div class="section-heading">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2 id="contact-title">Contact LuminaED</h2>
+        <p>Choose a contact channel below to reach the LuminaED team.</p>
+      </div>
+      <div class="contact-panel">
+        <a class="contact-card" href="mailto:luminaedofficial@gmail.com">
+          <span class="contact-icon" aria-hidden="true">✉</span>
+          <span class="contact-copy">
+            <small>Official email support</small>
+            <strong>luminaedofficial@gmail.com</strong>
+            <span>Send us an email ↗</span>
+          </span>
+        </a>
+        <a class="contact-card" href="https://wa.me/2348088662040" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon" aria-hidden="true">☏</span>
+          <span class="contact-copy">
+            <small>WhatsApp contact</small>
+            <strong>08088662040</strong>
+            <span>Chat with us on WhatsApp ↗</span>
+          </span>
+        </a>
+      </div>
+      <div class="section-heading">
+        <p class="eyebrow">FOLLOW LuminaED</p>
+        <h2>Our social platforms</h2>
+        <p>Official social media handles will be linked here.</p>
+      </div>
+      <div class="contact-panel social-panel">
+        <div class="contact-card"><span class="contact-icon" aria-hidden="true">♪</span><span class="contact-copy"><small>TikTok</small><strong>Handle to be added</strong><span>Official profile link pending</span></span></div>
+        <div class="contact-card"><span class="contact-icon" aria-hidden="true">◎</span><span class="contact-copy"><small>Instagram</small><strong>Handle to be added</strong><span>Official profile link pending</span></span></div>
+        <div class="contact-card"><span class="contact-icon" aria-hidden="true">f</span><span class="contact-copy"><small>Facebook</small><strong>Handle to be added</strong><span>Official profile link pending</span></span></div>
+        <div class="contact-card"><span class="contact-icon" aria-hidden="true">𝕏</span><span class="contact-copy"><small>X</small><strong>Handle to be added</strong><span>Official profile link pending</span></span></div>
+      </div>
+      <div class="notice">
+        <span class="notice-mark" aria-hidden="true">✦</span>
+        <p><strong>Need assistance?</strong> Contact the LuminaED team using the official email or WhatsApp details above.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="dashboard.html">LuminaED<span>.</span></a>
+        <p>Clarity in every course.</p>
+      </div>
+      <small>© 2026 LuminaED. All rights reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>

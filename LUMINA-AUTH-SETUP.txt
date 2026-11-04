@@ -1,0 +1,37 @@
+LuminaED AUTHENTICATION UPDATE
+
+WHAT WAS ADDED
+- supabase-client.js: one shared Supabase client/configuration file.
+- signup.js: account registration and email-confirmation flow.
+- login.html and login.js: student sign-in page and logic.
+- dashboard.js: dashboard session check, profile lookup, student greeting, and sign-out.
+- dashboard.html/dashboard.css: connected the dashboard to the authentication scripts and added sign-out/status UI.
+- lumina_profiles_trigger.sql: profile-creation trigger plus a policy allowing a student to read only their own profile.
+
+SUPABASE PROJECT
+The existing project URL and browser-safe publishable key from the supplied signup.html have been moved into supabase-client.js. No service-role or secret key is used.
+
+BEFORE TESTING
+1. In Supabase, open SQL Editor.
+2. Check that public.profiles has these columns: id (uuid, linked to auth.users.id), full_name (text), username (text). The trigger also expects created_at only if your table has it; this script does not insert created_at.
+3. Run lumina_profiles_trigger.sql once. It creates/replaces the trigger function, replaces the named auth trigger, enables RLS, and creates/replaces the student's own-profile SELECT policy.
+4. In Supabase > Authentication > URL Configuration, add your local Live Server URL to Redirect URLs (for example http://127.0.0.1:5500/**) and later add your exact GitHub Pages site URL. Do not guess the GitHub URL; use the one you deploy.
+5. Keep email confirmation enabled if that is your chosen signup setting.
+6. Open the folder using VS Code Live Server. Do not open signup.html directly as a file:// URL.
+
+TEST FLOW
+1. Open signup.html through Live Server.
+2. Register with an email address you can access.
+3. Open the Supabase confirmation email and follow its link. It should return to login.html.
+4. Sign in using the same email and password.
+5. Confirm that dashboard.html opens and shows your name (profile row preferred; signup metadata used as a fallback).
+6. Sign out and confirm that the site returns to login.html.
+7. Try opening dashboard.html in a fresh signed-out browser session; it should redirect to login.html.
+
+IMPORTANT
+- The profile trigger is prepared in the SQL file but has NOT been run by this code update. You must run it in your Supabase project.
+- The dashboard will show a fallback greeting if the profile trigger has not been run or the profile row is not yet readable.
+- Client-side page redirects improve navigation but do not replace database security. Keep RLS enabled and add appropriate policies for every future table.
+- Myaccount.html, test.html, and demo-site.html were not present in the uploaded folder. Their destinations remain future pages/links; this update does not create those systems.
+- The signup page's existing design and styles, landing page, image assets, and dashboard card destinations have been preserved.
+- The nested older Supabase ZIP archives from the upload are not included in this updated package to avoid confusion. Their relevant setup notes and SQL are present as normal files.

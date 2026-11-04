@@ -1,0 +1,161 @@
+/* LuminaED account page. Loads after dashboard.css and reuses its colours, header and footer. */
+.account-hero {
+  padding: 36px 44px;
+  border-radius: 25px;
+  background: linear-gradient(112deg, #0b1f3a 0%, #173b65 68%, #285384 100%);
+  color: white;
+  box-shadow: 0 20px 45px rgba(11, 31, 58, 0.14);
+}
+.account-hero h1 {
+  margin: 0;
+  font-family: "Lora", Georgia, serif;
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  font-weight: 500;
+}
+.account-hero-note {
+  margin: 10px 0 0;
+  color: #d2dfef;
+  font-size: 0.95rem;
+}
+
+#account-status { margin: 20px 0 0; }
+
+.account-grid {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 20px;
+  margin-top: 24px;
+  align-items: start;
+}
+
+.account-summary,
+.account-card {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 5px 18px rgba(11, 31, 58, 0.03);
+}
+
+.account-summary {
+  padding: 32px 24px;
+  text-align: center;
+}
+.summary-avatar {
+  width: 84px;
+  height: 84px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: var(--blue-soft);
+  color: var(--blue);
+  font-family: "Lora", Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.account-summary h2 {
+  margin: 0;
+  color: var(--navy);
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.3rem;
+  overflow-wrap: anywhere;
+}
+.summary-username {
+  margin: 6px 0 0;
+  color: var(--blue-mid);
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+.summary-email {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  overflow-wrap: anywhere;
+}
+
+.account-card { padding: 30px; }
+.account-card .section-heading { margin-bottom: 20px; }
+
+.field { margin-bottom: 18px; }
+.field label {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--navy);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+.field input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid #d5e2f2;
+  border-radius: 12px;
+  background: white;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.95rem;
+}
+.field input:focus {
+  outline: 3px solid #cfe2fa;
+  border-color: var(--blue-mid);
+}
+.field input:disabled {
+  background: #f1f5fa;
+  color: var(--muted);
+  cursor: not-allowed;
+}
+.field-hint {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.form-message {
+  min-height: 0;
+  margin: 0 0 14px;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+.form-message:not(:empty) {
+  padding: 10px 13px;
+  border-radius: 10px;
+  border: 1px solid #dce7f5;
+  background: #f5f9ff;
+}
+.form-message.error { color: #a3303f; background: #fff3f4; border-color: #f2c9ce; }
+.form-message.success { color: #256b4f; background: #eefaf4; border-color: #bfe5d1; }
+
+.form-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.save-button {
+  min-height: 48px;
+  padding: 0 24px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--navy);
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 180ms ease, transform 180ms ease;
+}
+.save-button:hover:not(:disabled) { background: var(--blue); transform: translateY(-1px); }
+.save-button:disabled { opacity: 0.55; cursor: not-allowed; }
+.cancel-link {
+  color: var(--blue);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .account-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .account-hero { padding: 28px 24px; border-radius: 20px; }
+  .account-card { padding: 22px 18px; }
+}
