@@ -22,3 +22,12 @@ KNOWN FEATURE LIMITATIONS BEFORE PUBLIC LAUNCH
 - Test History can display saved attempts, but the test page does not yet record them.
 - Administration now uses luminaedofficial@gmail.com as its official email contact. Social handles remain placeholders until official profile links are supplied.
 - The account page requires the profile SELECT, INSERT and UPDATE policies in lumina_profiles_trigger.sql. Run that SQL once in Supabase if it has not already been applied.
+
+UPDATED COURSE REGISTRATION FLOW (2026-11-05)
+1. register-department.html now loads register-department.js.
+2. Students save faculty, department and a level from 100 Level to 500 Level. Postgraduate and 600 Level are not offered in this form.
+3. After saving academic details, the page loads all active matching courses from public.courses. Electrical Engineering and its configured Electrical/Electronics aliases resolve to the same catalogue.
+4. Students tick the courses they are taking and choose Save my courses. Their choices are stored in public.student_course_selections and preselected when they return.
+5. Study Tools now displays the student's saved course selections and provides a link to update them. A null semester is displayed as “Semester not assigned”; the code does not guess semester allocations.
+6. The live Supabase database must contain student_academic_profiles, courses, department_aliases and student_course_selections with the RLS policies already configured for this project. Do not put a Supabase service-role key in browser files.
+7. The department field remains editable because the authoritative faculties-and-departments list has not yet been supplied. Once supplied, it can replace free-text entry with verified department choices.
