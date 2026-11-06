@@ -1,0 +1,681 @@
+﻿faculty,department,level,course_code,course_title,is_active
+Faculty of Engineering,Chemical Engineering,200 Level,C-CHE211,Chemical Engineering Fundamentals,true
+Faculty of Engineering,Chemical Engineering,200 Level,C-CHE212,Material Science,true
+Faculty of Engineering,Chemical Engineering,200 Level,C-CHE216,Statistics for Chemical Engineers,true
+Faculty of Engineering,Chemical Engineering,200 Level,C-GEE204,Students Workshop Experience,true
+Faculty of Engineering,Chemical Engineering,100 Level,CHE112,Introduction to Chemical Engineering,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE300,Chemical Engineering Laboratory I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE300-,Chemical Engineering Laboratory I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE301,Transport Phenomena I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE301-,Transport Phenomena I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE302,Chemical Engineering Thermodynamics 1,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE302-,Chemical Engineering Thermodynamics 1,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE303,Separation Process I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE303-,Separation Process I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE306,Polymer Process Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE306-,Polymer Process Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE307,Industrial Process calculation,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE307-,Industrial Process calculation,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE308,Computer Applications in Chemical Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE308-,Computer Applications in Chemical Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE309,Technical Report Writing and Communications,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE309-,Technical Report Writing and Communications,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE310,Chemical Engineering Laboratory II,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE310-,Chemical Engineering Laboratory II,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE311,Transport Phenomena II,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE311-,Transport Phenomena II,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE313,Process Instrumentation and Control,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE313-,Process Instrumentation and Control,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE314,Chemical Reaction Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE314-,Chemical Reaction Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE315,Biochemical Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE315-,Biochemical Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE318,Computer Applications in Chemical Engineering II,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE318-,Computer Applications in Chemical Engineering II,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE319,Corrosion Engineering,true
+Faculty of Engineering,Chemical Engineering,300 Level,CHE319-,Corrosion Engineering,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE400,Chemical Engineering Laboratory III,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE400-,Chemical Engineering Laboratory III,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE401,Chemical Engineering Analysis I,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE401-,Chemical Engineering Analysis I,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE402,Chemical Engineering Thermodynamics II,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE402-,Chemical Engineering Thermodynamics II,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE403,Separation Processes II,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE403-,Separation Processes II,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE404,Chemical Reaction Engineering II,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE404-,Chemical Reaction Engineering II,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE406,Particle Technology,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE406-,Particle Technology,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE408,Plant Design I,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE408-,Plant Design I,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE409,Environmental Engineering,true
+Faculty of Engineering,Chemical Engineering,400 Level,CHE409-,Environmental Engineering,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE501,Chemical Engineering Analysis II,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE501-,Chemical Engineering Analysis II,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE502,Chemical Process Industries,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE502-,Chemical Process Industries,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE503,Separation Process III,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE503-,Separation Process III,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE504,Chemical Reaction Engineering III,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE504-,Chemical Reaction Engineering III,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE505,Process Dynamics and Optimization,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE505-,Process Dynamics and Optimization,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE506,Polymer Process Engineering II,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE506-,Polymer Process Engineering II,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE507,Process Control,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE507-,Process Control,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE508,Plant Design II,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE508-,Plant Design II,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE510,Chemical Engineering Research Project,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE510-,Chemical Engineering Research Project,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE512,Reservoir Engineering,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE512-,Reservoir Engineering,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE514,Chemical Reaction Engineering IV,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE514-,Chemical Reaction Engineering IV,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE515,Biochemical Engineering II,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE515-,Biochemical Engineering II,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE516,Loss Prevention in Process Industry,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE516-,Loss Prevention in Process Industry,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE517,Nutritional Engineering,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE517-,Nutritional Engineering,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE518,Plant Design III,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE518-,Plant Design III,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE519,Petroleum Refinery Processes,true
+Faculty of Engineering,Chemical Engineering,500 Level,CHE519-,Petroleum Refinery Processes,true
+Faculty of Engineering,Chemical Engineering,200 Level,CME211,Chemical Engineering Fundamentals,true
+Faculty of Engineering,Chemical Engineering,200 Level,CME212,Material Science,true
+Faculty of Engineering,Chemical Engineering,200 Level,CME216,Statistics for Chemical Engineers,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME301,Transfer Processes,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME302,Chemical Engineering Thermodynamics 1,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME306,Chemical Engineering Laboratory I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME312,Separation Processes I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME313,Computer Applications in Chemical Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME314,Process Instrumentation,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME315,Petroleum Refinery processes,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME316,Chemical Engineering Laboratory II,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME317,Biochemical Engineering I,true
+Faculty of Engineering,Chemical Engineering,300 Level,CME318,Numerical Methods in Chemical Engineering,true
+Faculty of Engineering,Chemical Engineering,400 Level,CME401,Chemical Product Design,true
+Faculty of Engineering,Chemical Engineering,400 Level,CME402,Chemical Reaction Engineering I,true
+Faculty of Engineering,Chemical Engineering,400 Level,CME404,Plant Design and Economics,true
+Faculty of Engineering,Chemical Engineering,400 Level,CME405,Process Control,true
+Faculty of Engineering,Chemical Engineering,400 Level,CME406,Process Modelling and Simulation,true
+Faculty of Engineering,Chemical Engineering,200 Level,D-GEE203,Engineering Graphics and Solid Modeling II,true
+Faculty of Engineering,Chemical Engineering,400 Level,DCME400,Chemical Engineering Laboratory III,true
+Faculty of Engineering,Chemical Engineering,200 Level,DGFE203,Engineering Graphics and Solid Modeling II,true
+Faculty of Engineering,Chemical Engineering,200 Level,DGFE207,Applied Mechanics,true
+Faculty of Engineering,Chemical Engineering,200 Level,GEE208,ENGINEERING MATERIALS,true
+Faculty of Engineering,Chemical Engineering,200 Level,GEE213-,ENGINEER IN SOCIETY,true
+Faculty of Engineering,Chemical Engineering,200 Level,GEE218,STRENGTH OF MATERIALS,true
+Faculty of Engineering,Chemical Engineering,200 Level,GEE218-,STRENGTH OF MATERIALS,true
+Faculty of Engineering,Chemical Engineering,200 Level,GEE231-,GENERAL ENGINEERING LABOURATORY COURSE,true
+Faculty of Engineering,Chemical Engineering,300 Level,GEE309,Engineering Mathematics III,true
+Faculty of Engineering,Chemical Engineering,300 Level,GEE309-,Engineering Mathematics III,true
+Faculty of Engineering,Chemical Engineering,400 Level,GEE401,Engineering Economics,true
+Faculty of Engineering,Chemical Engineering,400 Level,GEE402,Engineering Mathematics,true
+Faculty of Engineering,Chemical Engineering,400 Level,GEE499,Student Industrial Work Experience Scheme (SIWES III),true
+Faculty of Engineering,Chemical Engineering,500 Level,GEE501,Engineering Law,true
+Faculty of Engineering,Chemical Engineering,500 Level,GEE511,Engineering Management,true
+Faculty of Engineering,Chemical Engineering,200 Level,GFE204,Students Workshop Experience,true
+Faculty of Engineering,Chemical Engineering,300 Level,GFE306,Renewable Energy Systems and Technologies,true
+Faculty of Engineering,Civil Engineering,200 Level,C-CIE211,Civil Engineering Drawings,true
+Faculty of Engineering,Civil Engineering,500 Level,CEE599,Final Year Project Continued,true
+Faculty of Engineering,Civil Engineering,500 Level,CEE599-,Final Year Project Continued,true
+Faculty of Engineering,Civil Engineering,100 Level,CIE112,Introduction To Civil Engineering,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE301,Fluid Mechanics,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE301-,Fluid Mechanics,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE302,Strength of Structural Materials,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE302-,Strength of Structural Materials,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE303,Engineering Geology,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE303-,Engineering Geology,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE304,Civil Engineering Materials,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE304-,Civil Engineering Materials,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE305,Elements of Architecture,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE305-,Elements of Architecture,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE306,Entrepreneurship,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE306-,Entrepreneurship,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE312,Engineering Communication,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE312-,Engineering Communication,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE313,Soil Mechanics I,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE313-,Soil Mechanics I,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE314,Design of Structures I,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE314-,Design of Structures I,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE315,Structural Mechanics I,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE315-,Structural Mechanics I,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE316,Engineering Surveying & Photogrammetry I,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE316-,Engineering Surveying & Photogrammetry I,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE317,Civil Engineering Drawing,true
+Faculty of Engineering,Civil Engineering,300 Level,CIE317-,Civil Engineering Drawing,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE401,Hydraulics and Hydrology,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE401-,Hydraulics and Hydrology,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE402,Civil Engineering Practice,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE402-,Civil Engineering Practice,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE403,Structural Mechanics II,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE403-,Structural Mechanics II,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE404,Design of Structures II,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE404-,Design of Structures II,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE405,Soil Mechanics II,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE405-,Soil Mechanics II,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE406,Engineering Surveying & Photogrammetry II,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE406-,Engineering Surveying & Photogrammetry II,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE407,Highway Engineering,true
+Faculty of Engineering,Civil Engineering,400 Level,CIE407-,Highway Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE501,Structural Design,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE501-,Structural Design,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE502,Water Resources & Environmental Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE502-,Water Resources & Environmental Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE503,Highway & Transportation Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE503-,Highway & Transportation Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE504,Hydraulics Design,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE504-,Hydraulics Design,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE505,Terotechnology,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE505-,Terotechnology,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE506,Building Services Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE506-,Building Services Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE512,Geotechnical Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE512-,Geotechnical Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE513,Construction Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE513-,Construction Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE514,Waste Management Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE514-,Waste Management Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE515,Foundation Engineering,true
+Faculty of Engineering,Civil Engineering,500 Level,CIE515-,Foundation Engineering,true
+Faculty of Engineering,Civil Engineering,200 Level,CVE211,Civil Engineering Drawings,true
+Faculty of Engineering,Civil Engineering,300 Level,CVE302,Strength of Structural Materials,true
+Faculty of Engineering,Civil Engineering,300 Level,CVE303,Engineering Geology,true
+Faculty of Engineering,Civil Engineering,300 Level,CVE311,Fluid Mechanics,true
+Faculty of Engineering,Civil Engineering,300 Level,CVE313,Soil Mechanics I,true
+Faculty of Engineering,Civil Engineering,300 Level,CVE314,Civil Engineering Materials,true
+Faculty of Engineering,Civil Engineering,300 Level,CVE315,Structural Mechanics I,true
+Faculty of Engineering,Civil Engineering,300 Level,CVE316,Engineering Surveying & Photogrammetry I,true
+Faculty of Engineering,Civil Engineering,400 Level,CVE405,Soil Mechanics II,true
+Faculty of Engineering,Civil Engineering,400 Level,CVE406,Engineering Surveying & Photogrammetry II,true
+Faculty of Engineering,Civil Engineering,400 Level,CVE407,Highway Engineering,true
+Faculty of Engineering,Civil Engineering,100 Level,D-CIE113,"Waves, Vibrations and Optics",true
+Faculty of Engineering,Civil Engineering,100 Level,D-GEE199,Student Work Experience Programmme,true
+Faculty of Engineering,Civil Engineering,100 Level,DCVE113,"Waves, Vibrations and Optics",true
+Faculty of Engineering,Civil Engineering,400 Level,DCVE402,Civil Engineering Practice,true
+Faculty of Engineering,Civil Engineering,400 Level,DCVE403,Structural Mechanics II,true
+Faculty of Engineering,Civil Engineering,400 Level,DCVE404,Design of Structures II,true
+Faculty of Engineering,Civil Engineering,100 Level,DGFE199,Student Work Experience Programmme,true
+Faculty of Engineering,Civil Engineering,400 Level,DWTE403,Hydraulics and Hydrology II,true
+Faculty of Engineering,Civil Engineering,100 Level,GEE111,Introduction To Workshop Practice,true
+Faculty of Engineering,Civil Engineering,100 Level,GEE111-,Introduction To Workshop Practice,true
+Faculty of Engineering,Civil Engineering,100 Level,GEE112,Engineering Graphics And Solid Modelling I,true
+Faculty of Engineering,Civil Engineering,100 Level,GEE199,Students Work Experience Scheme (Swep),true
+Faculty of Engineering,Civil Engineering,100 Level,GEE199-,Students Work Experience Scheme (Swep),true
+Faculty of Engineering,Civil Engineering,200 Level,GEE203,ENGINEERING DRAWING,true
+Faculty of Engineering,Civil Engineering,200 Level,GEE203-,ENGINEERING DRAWING,true
+Faculty of Engineering,Civil Engineering,200 Level,GEE213,ENGINEER IN SOCIETY,true
+Faculty of Engineering,Civil Engineering,200 Level,GEE299,SIWES1,true
+Faculty of Engineering,Civil Engineering,200 Level,GEE299-,SIWES1,true
+Faculty of Engineering,Civil Engineering,400 Level,GEE499-,Student Industrial Work Experience Scheme (SIWES III),true
+Faculty of Engineering,Civil Engineering,500 Level,GEE501-,Engineering Law,true
+Faculty of Engineering,Civil Engineering,100 Level,GET111,Basic Engineering Drawing,true
+Faculty of Engineering,Civil Engineering,200 Level,GET209,Engineering Mathematics I,true
+Faculty of Engineering,Civil Engineering,200 Level,GET222,Engineering Drawing II,true
+Faculty of Engineering,Civil Engineering,200 Level,GET299,Students’ Work Experience Programme (SWEP),true
+Faculty of Engineering,Civil Engineering,400 Level,GFE429,Students' Industrial Work Experience Scheme (SIWES) II,true
+Faculty of Engineering,Civil Engineering,400 Level,GFE499,Students' Industrial Work Experience Scheme (SIWES) III,true
+Faculty of Engineering,Computer Engineering,200 Level,C-GEE211,Computing and Software Engineering,true
+Faculty of Engineering,Computer Engineering,100 Level,CPE112,Introduction to Computer Engineering,true
+Faculty of Engineering,Computer Engineering,300 Level,CPE301,Communication Principles,true
+Faculty of Engineering,Computer Engineering,300 Level,CPE311,Computer Organization and Architecture,true
+Faculty of Engineering,Computer Engineering,300 Level,CPE312,Software Development Techniques,true
+Faculty of Engineering,Computer Engineering,300 Level,CPE313,Engineering Communication,true
+Faculty of Engineering,Computer Engineering,300 Level,CPE314,Computer Organization and Architecture,true
+Faculty of Engineering,Computer Engineering,300 Level,CPE315,Laboratory Practicals,true
+Faculty of Engineering,Computer Engineering,300 Level,CPE316,Measurement and Instrumentation,true
+Faculty of Engineering,Computer Engineering,400 Level,CPE400,Laboratory Courses,true
+Faculty of Engineering,Computer Engineering,400 Level,CPE401,Microprocessor System & Interfacing,true
+Faculty of Engineering,Computer Engineering,400 Level,CPE402,Control System,true
+Faculty of Engineering,Computer Engineering,400 Level,CPE403,Data Communication & Network,true
+Faculty of Engineering,Computer Engineering,400 Level,CPE404,Assembly Language Programming,true
+Faculty of Engineering,Computer Engineering,400 Level,CPE405,Computer Software Engineering,true
+Faculty of Engineering,Computer Engineering,400 Level,CPE406,Prototype Techniques,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE501,Reliability and Maintainability,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE502,Embedded System Design,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE503,Robotics & Automation,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE504,Digital Signal Processing,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE505,Fuzzy Logic & Programming,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE506,Artificial Neural Network,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE507,Cyberpreneurship & Cyberlaw,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE508,Digital Image Processing,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE509,Computer Security Techniques I,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE513,Cryptography Principles & Applications,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE514,Design & Installation of Electrical & ICT services,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE515,Digital System Design with VHDL,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE518,Computer Graphics & Animation,true
+Faculty of Engineering,Computer Engineering,500 Level,CPE555,Project,true
+Faculty of Engineering,Computer Engineering,400 Level,CTE402,Microprocessor and Embedded Systems,true
+Faculty of Engineering,Computer Engineering,400 Level,CTE403,Hardware Design Techniques and Verification,true
+Faculty of Engineering,Computer Engineering,400 Level,CTE404,Control System,true
+Faculty of Engineering,Computer Engineering,400 Level,CTE405,Research Methods,true
+Faculty of Engineering,Computer Engineering,300 Level,DCPE301,Communication Principles,true
+Faculty of Engineering,Computer Engineering,300 Level,DCPE315,Communication Principles,true
+Faculty of Engineering,Computer Engineering,400 Level,DCTE405,Computer Software Engineering,true
+Faculty of Engineering,Computer Engineering,400 Level,DCTE406,Data Communication & Network,true
+Faculty of Engineering,Computer Engineering,400 Level,DCTE409,Assembly Language and system Programming,true
+Faculty of Engineering,Computer Engineering,300 Level,DELE309,Electric Circuit Theory I,true
+Faculty of Engineering,Computer Engineering,300 Level,DELE311,Analogue Electronic Circuits,true
+Faculty of Engineering,Computer Engineering,300 Level,DELE312,Digital Electronic Circuits,true
+Faculty of Engineering,Computer Engineering,300 Level,DELE314,Electromagnetic Field and Waves I,true
+Faculty of Engineering,Computer Engineering,200 Level,GEE212,COMPUTER PROGRAMMING,true
+Faculty of Engineering,Computer Engineering,200 Level,GFE211,Computing and Software Engineering,true
+Faculty of Engineering,Computer Engineering,300 Level,GFE304,"Engineering Communication, Technical writing and presentation",true
+Faculty of Engineering,Computer Engineering,300 Level,GFE305,Engineering Statistics and Data Analytics,true
+Faculty of Engineering,Computer Engineering,300 Level,GFE307,"Introduction to Artificial Intelligence, Machine Learning and Convergent Technologies",true
+Faculty of Engineering,Computer Engineering,400 Level,GFE414,Engineering Valuation and Costing,true
+Faculty of Engineering,Electrical Engineering,200 Level,C-EEE212,Applied electricity II,true
+Faculty of Engineering,Electrical Engineering,200 Level,C-EEE214,Electrical Engineering Materials,true
+Faculty of Engineering,Electrical Engineering,200 Level,C-GEE201,Applied Electricity I,true
+Faculty of Engineering,Electrical Engineering,200 Level,C-GEE203,Engineering Graphic And Solid Modelling II,true
+Faculty of Engineering,Electrical Engineering,200 Level,C-GEE210,Engineering Mathematics II,true
+Faculty of Engineering,Electrical Engineering,200 Level,D-GEE218,Strength Of Materials,true
+Faculty of Engineering,Electrical Engineering,300 Level,DELE308,Electric Circuit Theory I,true
+Faculty of Engineering,Electrical Engineering,300 Level,DELE318,Electrical Machines I,true
+Faculty of Engineering,Electrical Engineering,300 Level,DELE320,Laboratory And Mini Project I,true
+Faculty of Engineering,Electrical Engineering,300 Level,DELE330,Laboratory And Mini Project II,true
+Faculty of Engineering,Electrical Engineering,400 Level,DELE401,Control Engineering,true
+Faculty of Engineering,Electrical Engineering,400 Level,DELE402,Principles Of Communication Engineering,true
+Faculty of Engineering,Electrical Engineering,400 Level,DELE403,Electric Power Principles,true
+Faculty of Engineering,Electrical Engineering,400 Level,DELE404,Electromagnetic Field And Waves II,true
+Faculty of Engineering,Electrical Engineering,400 Level,DELE405,Electrical Machine II,true
+Faculty of Engineering,Electrical Engineering,400 Level,DELE406,Measurement And Instrumentation,true
+Faculty of Engineering,Electrical Engineering,400 Level,DELE408,Laboratory Practicals III,true
+Faculty of Engineering,Electrical Engineering,200 Level,DGFE212,Applied Electricity II,true
+Faculty of Engineering,Electrical Engineering,200 Level,DGFE218,Strength Of Materials,true
+Faculty of Engineering,Electrical Engineering,300 Level,DGFE312,Engineering Mathematics IV,true
+Faculty of Engineering,Electrical Engineering,100 Level,EEE112,Introduction To Electrical and Electronics Engineering,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE301,Analogue Electronic Circuits,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE301-,Analogue Electronic Circuits,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE303,Circuit Theory I,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE303-,Circuit Theory I,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE304,Measurements and Instrumentation,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE304-,Measurements and Instrumentation,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE305,ELECTROMECHANICAL DEVICES AND MACHINES,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE305-,ELECTROMECHANICAL DEVICES AND MACHINES,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE306,Physical Electronics,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE306-,Physical Electronics,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE312,Digital Electronic Circuits,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE312-,Digital Electronic Circuits,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE315,Linear Systems,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE315-,Linear Systems,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE316,Electromechanical System,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE316-,Electromechanical System,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE317,Electromagnetic Fields and Waves I,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE317-,Electromagnetic Fields and Waves I,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE320,Laboratory Practical,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE320-,Laboratory Practical,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE321,Laboratory Practical,true
+Faculty of Engineering,Electrical Engineering,300 Level,EEE321-,Laboratory Practical,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE401,Circuit Theory II,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE401-,Circuit Theory II,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE402,Electromagnetic Fields and Waves II,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE402-,Electromagnetic Fields and Waves II,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE403,Communication Principles,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE403-,Communication Principles,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE404,Electric Power Principles,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE404-,Electric Power Principles,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE405,Advanced Electronics,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE405-,Advanced Electronics,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE406,Control Theory,true
+Faculty of Engineering,Electrical Engineering,400 Level,EEE406-,Control Theory,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE501,Communication Systems Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE501-,Communication Systems Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE502,Reliability Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE502-,Reliability Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE503,Control Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE503-,Control Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE504,Digital Signal Processing,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE504-,Digital Signal Processing,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE505,Telecommunication Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE505-,Telecommunication Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE506,Electrical Service Design,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE506-,Electrical Service Design,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE507,Electrical Energy Conversion and Storage,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE507-,Electrical Energy Conversion and Storage,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE509,Power Systems Communication and Control,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE509-,Power Systems Communication and Control,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE511,Electric Power System Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE511-,Electric Power System Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE512,Digital Communications System,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE512-,Digital Communications System,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE513,Switchgear and High Voltage Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE513-,Switchgear and High Voltage Engineering,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE514,Advanced Circuit Techniques,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE514-,Advanced Circuit Techniques,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE515,Electromechanical Devices Design,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE515-,Electromechanical Devices Design,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE516,Electric and Magnetic Field Theory,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE516-,Electric and Magnetic Field Theory,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE517,Advanced Computer Programming and Statistics,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE517-,Advanced Computer Programming and Statistics,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE518,Telecommunication Services Design,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE518-,Telecommunication Services Design,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE519,Electronics Broadcasting,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE519-,Electronics Broadcasting,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE599,Final Year Project,true
+Faculty of Engineering,Electrical Engineering,500 Level,EEE599-,FINAL YEAR PROJECT,true
+Faculty of Engineering,Electrical Engineering,200 Level,ELE212,Applied electricity II,true
+Faculty of Engineering,Electrical Engineering,200 Level,ELE214,Electrical Engineering Materials,true
+Faculty of Engineering,Electrical Engineering,300 Level,ELE311,Analoque Electronic Circuit,true
+Faculty of Engineering,Electrical Engineering,300 Level,ELE312,Digital Electronic Circuit,true
+Faculty of Engineering,Electrical Engineering,300 Level,ELE314,Electromagnetic Field And Waves I,true
+Faculty of Engineering,Electrical Engineering,300 Level,ELE316,Electrical Circuit Theory II,true
+Faculty of Engineering,Electrical Engineering,400 Level,ELE402,Engineering project I,true
+Faculty of Engineering,Electrical Engineering,200 Level,GEE201,APPLIED ELECTRICITY 1,true
+Faculty of Engineering,Electrical Engineering,200 Level,GEE201-,APPLIED ELECTRICITY 1,true
+Faculty of Engineering,Electrical Engineering,200 Level,GEE204,STUDENTS WORKSHOP PRACTICE,true
+Faculty of Engineering,Electrical Engineering,200 Level,GEE210,Applied Electricity I,true
+Faculty of Engineering,Electrical Engineering,200 Level,GEE211,APPLIED ELECTRICITY 11,true
+Faculty of Engineering,Electrical Engineering,200 Level,GEE211-,APPLIED ELECTRICITY 11,true
+Faculty of Engineering,Electrical Engineering,300 Level,GEE303,Engineering in Society,true
+Faculty of Engineering,Electrical Engineering,300 Level,GEE303-,Engineering in Society,true
+Faculty of Engineering,Electrical Engineering,300 Level,GEE312,Engineering Mathematics IV,true
+Faculty of Engineering,Electrical Engineering,300 Level,GEE312-,Engineering Mathematics IV,true
+Faculty of Engineering,Electrical Engineering,500 Level,GEE512,Engineering Law,true
+Faculty of Engineering,Electrical Engineering,500 Level,GEE512-,Engineering Law,true
+Faculty of Engineering,Electrical Engineering,200 Level,GET201,Applied Electricity I,true
+Faculty of Engineering,Electrical Engineering,200 Level,GET202,Applied Electricity II,true
+Faculty of Engineering,Electrical Engineering,200 Level,GET211,Computer Programming I,true
+Faculty of Engineering,Electrical Engineering,200 Level,GFE201,Applied Electricity I,true
+Faculty of Engineering,Electrical Engineering,200 Level,GFE203,Engineering Graphic And Solid Modelling II,true
+Faculty of Engineering,Electrical Engineering,200 Level,GFE210,Engineering Mathematics II,true
+Faculty of Engineering,Mechanical Engineering,200 Level,C-GEE206,Fundamentals of Thermodynamics,true
+Faculty of Engineering,Mechanical Engineering,200 Level,C-GEE209,Engineering Mathematics I,true
+Faculty of Engineering,Mechanical Engineering,200 Level,C-GEE218,Strength of Materials,true
+Faculty of Engineering,Mechanical Engineering,100 Level,D-GEE114,Introduction To Workshop,true
+Faculty of Engineering,Mechanical Engineering,200 Level,D-GEE207,Applied Mechanics,true
+Faculty of Engineering,Mechanical Engineering,200 Level,D-GEE212,Applied Electricity II,true
+Faculty of Engineering,Mechanical Engineering,300 Level,DELE305,Electromechanical Device and Machine,true
+Faculty of Engineering,Mechanical Engineering,100 Level,DGFE114,Introduction To Workshop,true
+Faculty of Engineering,Mechanical Engineering,300 Level,DMEE302,Thermodynamics II,true
+Faculty of Engineering,Mechanical Engineering,300 Level,DMEE311,Engineering Economics,true
+Faculty of Engineering,Mechanical Engineering,300 Level,DMEE313,Fluid Mechanics,true
+Faculty of Engineering,Mechanical Engineering,300 Level,DMEE314,Introduction to Mechanics of Machine,true
+Faculty of Engineering,Mechanical Engineering,300 Level,DMEE316,Mechanical Engineering Laboratory,true
+Faculty of Engineering,Mechanical Engineering,300 Level,DMEE317,Strength of Materials II,true
+Faculty of Engineering,Mechanical Engineering,300 Level,DMEE318,Manufacturing Technology,true
+Faculty of Engineering,Mechanical Engineering,100 Level,GEE101,Engineer In Society,true
+Faculty of Engineering,Mechanical Engineering,100 Level,GEE101-,Basic Engineering Drawing,true
+Faculty of Engineering,Mechanical Engineering,100 Level,GEE121,Introduction to Workshop Practice,true
+Faculty of Engineering,Mechanical Engineering,100 Level,GEE121-,Introduction To Workshop Practice,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE204-,STUDENTS WORKSHOP PRACTICE,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE205-,FUNDAMENTALS OF FLUID MECHANICS,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE206,FUNDAMENTALS OF THERMODYNAMICS,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE206-,FUNDAMENTALS OF THERMODYNAMICS,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE207-,APPLIED MECHANICS 1,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE209,ENGINEERING MATHMATICS 1,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE209-,ENGINEERING MATHMATICS 1,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE217-,APPLIED MECHANICS 11,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE219,ENGINEERING MATHMATICS 11,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GEE219-,ENGINEERING MATHMATICS 11,true
+Faculty of Engineering,Mechanical Engineering,300 Level,GEE301,ENGINEERING MATHMATICS 111,true
+Faculty of Engineering,Mechanical Engineering,300 Level,GEE301-,ENGINEERING MATHMATICS 111,true
+Faculty of Engineering,Mechanical Engineering,300 Level,GEE311,ENGINEERING MATHMATICS IV,true
+Faculty of Engineering,Mechanical Engineering,300 Level,GEE311-,ENGINEERING MATHMATICS IV,true
+Faculty of Engineering,Mechanical Engineering,300 Level,GEE399,STUDENTS WORK EXPERIENCE PROGRAMME(SWEP),true
+Faculty of Engineering,Mechanical Engineering,400 Level,GEE401-,Engineering Economics,true
+Faculty of Engineering,Mechanical Engineering,400 Level,GEE402-,Engineering Mathematics,true
+Faculty of Engineering,Mechanical Engineering,500 Level,GEE511-,Engineering Management,true
+Faculty of Engineering,Mechanical Engineering,100 Level,GET111-,Basic Engineering Drawing,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GET203,Engineering Drawing I,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GET204,Students Workshop Experience,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GET206,Fundamentals of Thermodynamics,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GET207,Applied Mechanics,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GET208,Engineering Materials,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GET210,Engineering Mathematics II,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GET212,Engineering Materials,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GET213,General Engineering Laboratory Course,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GFE206,Fundamentals of Thermodynamics,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GFE209,Engineering Mathematics I,true
+Faculty of Engineering,Mechanical Engineering,200 Level,GFE218,Strength of Materials,true
+Faculty of Engineering,Mechanical Engineering,300 Level,GFE301,Engineering Mathematics III,true
+Faculty of Engineering,Mechanical Engineering,300 Level,GFE311,Engineering Mathematics IV,true
+Faculty of Engineering,Mechanical Engineering,400 Level,GFE402,Engineering Project I/seminar,true
+Faculty of Engineering,Mechanical Engineering,100 Level,MCE112,Introduction to Mechanical Engineering,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MCE401,Mechanical (Machine) Engineering Design I,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MCE402,Theory (Mechanics) of Machines I,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MCE403,Applied (Engineering) Thermodynamics I,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MCE404,Applied Fluid Mechanics,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MCE405,Heat and Mass Transfer,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MCE407,Advanced Mechanics of Materials,true
+Faculty of Engineering,Mechanical Engineering,100 Level,MEE101,Engineering Drawing I,true
+Faculty of Engineering,Mechanical Engineering,100 Level,MEE102,Introduction To Mechanical Engineering,true
+Faculty of Engineering,Mechanical Engineering,100 Level,MEE112,Introduction to Mechanical Engineering,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE302,MACHINE DRAWING,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE302-,MACHINE DRAWING,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE303,FLUID MECHANICS 11,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE303-,FLUID MECHANICS 11,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE304,STRENGHT OF MATERIALS,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE304-,STRENGHT OF MATERIALS,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE306,THERMODYNAMICS,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE306-,THERMODYNAMICS,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE307,MECHANICS OF MACHINES,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE307-,MECHANICS OF MACHINES,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE308,MANUFACTURING TECHNOLOGY,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE308-,MANUFACTURING TECHNOLOGY,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE309,ANALYTICAL MECHANICS,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE309-,ANALYTICAL MECHANICS,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE312,MACHANICAL ENGINEERING DESIGN 1,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE313,FLUID MECHANICS 111,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE313-,FLUID MECHANICS 111,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE314,TURBOMACHINERY,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE314-,TURBOMACHINERY,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE315,METALLURGY AND MATERIALS SELECTION,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE315-,METALLURGY AND MATERIALS SELECTION,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE316,HEAT AND MASS TRANSFER,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE316-,HEAT AND MASS TRANSFER,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE317,MECHANICS OF MACHINES 11,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE317-,MECHANICS OF MACHINES 11,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE318,MANUFACTURING TECHNOLOGY 11,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE318-,MANUFACTURING TECHNOLOGY 11,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE319,Computer Aided Design and Manufacture,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE321,MECHANICAL ENGINEERING LABORATORY I,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE321-,MECHANICAL ENGINEERING LABORATORY I,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE331,MECHANICAL ENGINEERING LABORATORY,true
+Faculty of Engineering,Mechanical Engineering,300 Level,MEE331-,MECHANICAL ENGINEERING LABORATORY,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE401,CONTROL SYSTEM ENGINEERING,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE401-,CONTROL SYSTEM ENGINEERING,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE402,APPLIED THERMODYNAMICS & HEAT TRANSFER,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE402-,APPLIED THERMODYNAMICS & HEAT TRANSFER,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE403,AIR CONDITIONING AND REFRIGERATION,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE403-,AIR CONDITIONING AND REFRIGERATION,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE404,MECHANICAL ENGINEERING DESIGN 11,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE404-,MECHANICAL ENGINEERING DESIGN 11,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE405,PRINCIPLES OF AUTOMOTIVE ENGINEERING,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE405-,PRINCIPLES OF AUTOMOTIVE ENGINEERING,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE406,MATHMATICAL MODELLING AND OPERATION RESEARCH,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE406-,MATHMATICAL MODELLING AND OPERATION RESEARCH,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE421,MECHANICAL ENGINEERING PRACTICALS,true
+Faculty of Engineering,Mechanical Engineering,400 Level,MEE421-,MECHANICAL ENGINEERING PRACTICALS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE502,"ROBOTICS, MECHANICS AND CONTROL",true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE502-,"ROBOTICS, MECHANICS AND CONTROL",true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE503,APPLIED STRESS ANALYSIS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE503-,APPLIED STRESS ANALYSIS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE504,VEHICLE DYNAMICS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE504-,VEHICLE DYNAMICS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE505,MECHANICAL VIBRATION AND NOISE,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE505-,MECHANICAL VIBRATION AND NOISE,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE506,ADVANCED MCHANICAL ENGINEERING DESIGN,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE506-,ADVANCED MCHANICAL ENGINEERING DESIGN,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE507,TECHNICAL SEMINAR,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE507-,TECHNICAL SEMINAR,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE508,COMPUTER-AIDED DESIGN & MANUFACTURE CAD/CAM,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE508-,COMPUTER-AIDED DESIGN & MANUFACTURE CAD/CAM,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE512,VEHICLE DYNAMICS AND AUTOMOTIVE SAFETY,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE512-,VEHICLE DYNAMICS AND AUTOMOTIVE SAFETY,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE513,POWER PLANT ENGINEERING,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE513-,POWER PLANT ENGINEERING,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE514,NUMERICAL CONTROL OF MACHINE TOOLS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE514-,NUMERICAL CONTROL OF MACHINE TOOLS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE515,AERODYNAMICS AND HYDRODYNAMICS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE516,GAS TURBINES ENGINES,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE517,FINAL YEAR PROJECT,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE517-,FINAL YEAR PROJECT,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE518,ENERGY CONVERSIONS PRINCIPLES,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE519,AIR CONDITION AND REFRIGERATION ENGINEERING,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE521,MECHANICAL ENGINEERING PRACTICALS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE521-,MECHANICAL ENGINEERING PRACTICALS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE522,INDUSTRIAL AUTOMATION,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE523,MACHINE TOOL TECHNOLOGY,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE523-,MACHINE TOOL TECHNOLOGY,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE524,PRODUCTION ENGINEERING,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE524-,PRODUCTION ENGINEERING,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE525,ENGINEERING MATERIAL SELECTION,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE525-,ENGINEERING MATERIAL SELECTION,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE526,CORROSION CONTROL AND PROTECTION,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE526-,CORROSION CONTROL AND PROTECTION,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE527,FRACTURE AND FATIGUE OF ENGINEERING MATERIALS,true
+Faculty of Engineering,Mechanical Engineering,500 Level,MEE528,METALLURGY,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,C-GEE207,Applied Mechanics,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,C-GEE213,Engineering Materials,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,D-EEE212,Applied Electricity II,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,DELE212,Applied Electricity II,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,DELE315,Electronics I,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,DMRE314,Electromagnetic Theory I,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,DMRE315,Computer Hardware Engineering,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,DMRE316,Material Technology,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,DMRE317,Electromechanical Devices,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,DMRE318,Laboratory and Mini Project II,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,GEE207,APPLIED MECHANICS 1,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,GEE208-,ENGINEERING MATERIALS,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,GEE210-,Applied Electricity I,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,GEE212-,COMPUTER PROGRAMMING,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,GEE217,APPLIED MECHANICS 11,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,GEE231,GENERAL ENGINEERING LABOURATORY COURSE,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,GEE399-,STUDENTS WORK EXPERIENCE PROGRAMME(SWEP),true
+Faculty of Engineering,Mechatronics Engineering,400 Level,GEE404,Engineering Communication,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,GEE404-,Engineering Communication,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,GEE502,Engineering Management I,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,GEE502-,Engineering Management I,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,GFE207,Applied Mechanics,true
+Faculty of Engineering,Mechatronics Engineering,200 Level,GFE213,Engineering Materials,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,GFE312,Engineering Mathematics IV,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MEE301,Engineering Drawing,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MEE301-,ENGINEERING DRAWING,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MEE312-,MACHANICAL ENGINEERING DESIGN 1,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MRE311,Design of Mechatronics and Robotics Systems,true
+Faculty of Engineering,Mechatronics Engineering,100 Level,MTE112,Introduction To Mechatronics Engineering,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE302,Electric Circuit Theory,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE302-,Electric Circuit Theory,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE303,Mechatronics Laboratory,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE303-,Mechatronics Laboratory,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE304,Signals And System,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE304-,Signals And System,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE305,Fluid Mechanics III,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE305-,Fluid Mechanics III,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE306,Manufacturing Technology,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE306-,MANUFACTURING TECHNOLOGY,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE307,Computer Software Engineering,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE307-,Computer Software Engineering,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE311,Electromagnetic Theory,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE311-,Electromagnetic Theory,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE312,Heat And Mass Transfer,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE312-,HEAT AND MASS TRANSFER,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE313,Material Technology,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE313-,Material Technology,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE314,Mechatronics Laboratory II,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE314-,Mechatronics Laboratory II,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE315,Computer Hardware Engineering,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE315-,Computer Hardware Engineering,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE318,Electromechanical Device,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE319,Electronics I,true
+Faculty of Engineering,Mechatronics Engineering,300 Level,MTE319-,Electronics I,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE401,"Control Engineering, I",true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE401-,"Control Engineering, I",true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE402,Electronics II,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE402-,Electronics II,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE403,Computer Aided Manufacturing,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE403-,Computer Aided Manufacturing,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE405,Sensors and Actuators,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE405-,Sensors and Actuators,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE406,Group Project,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE406-,Group Project,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE407,Measurement and Instrumentation,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE407-,Measurement and Instrumentation,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE408,CAD/CAM/CNC Laboratory,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE408-,CAD/CAM/CNC Laboratory,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE409,Digital System and PLCs,true
+Faculty of Engineering,Mechatronics Engineering,400 Level,MTE409-,Digital System and PLCs,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE501,Introduction to Robotics,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE501-,Introduction to Robotics,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE502,Vibrations,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE502-,Vibrations,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE503,Machine Vision,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE503-,Machine Vision,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE505,Final Year Project,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE505-,FINAL YEAR PROJECT,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE506,Microcomputer and microprocessor systems,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE506-,Microcomputer and microprocessor systems,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE507,Digital Signal Modelling,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE507-,Digital Signal Modelling,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE508,Control Engineering II,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE508-,Control Engineering II,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE509,Computer Software II,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE509-,Computer Software II,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE511,Final Year Project,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE511-,FINAL YEAR PROJECT,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE512,Power Electronics & Drives,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE512-,Power Electronics & Drives,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE513,System Modelling & Simulation,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE513-,System Modelling & Simulation,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE514,Automation & Robotics,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE514-,Automation & Robotics,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE515,Process Automation,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE515-,Process Automation,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE516,MEMS & VLSL,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE516-,MEMS & VLSL,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE517,Automation Laboratory,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE517-,Automation Laboratory,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE518,Engineering Management,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE518-,Engineering Management,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE519,Renewable Energy Resources,true
+Faculty of Engineering,Mechatronics Engineering,500 Level,MTE519-,Renewable Energy Resources,true
+Faculty of Engineering,Water Resources Engineering,200 Level,C-GEE205,Fundamentals of Fluid Mechanics,true
+Faculty of Engineering,Water Resources Engineering,200 Level,C-GEE299,SWEP: Students Industrial Work Experience (SIWES I),true
+Faculty of Engineering,Water Resources Engineering,100 Level,D-WRE112,Introduction To Water Resources Engineering,true
+Faculty of Engineering,Water Resources Engineering,300 Level,DCVE311,Fluid Mechanics,true
+Faculty of Engineering,Water Resources Engineering,300 Level,DCVE313,Soil Mechanics I,true
+Faculty of Engineering,Water Resources Engineering,300 Level,DCVE315,Structural Mechanics I,true
+Faculty of Engineering,Water Resources Engineering,400 Level,DCVE405,Civil Engineering Drawings,true
+Faculty of Engineering,Water Resources Engineering,300 Level,DGFE301,Engineering Mathematics III,true
+Faculty of Engineering,Water Resources Engineering,300 Level,DGFE311,Engineering Mathematics IV,true
+Faculty of Engineering,Water Resources Engineering,100 Level,DWTE112,Introduction To Water Resources Engineering,true
+Faculty of Engineering,Water Resources Engineering,200 Level,GEE205,FUNDAMENTALS OF FLUID MECHANICS,true
+Faculty of Engineering,Water Resources Engineering,200 Level,GET205,Fundamentals of Fluid Mechanics,true
+Faculty of Engineering,Water Resources Engineering,400 Level,GET499,Students Industrial Work Experience Scheme (SIWES),true
+Faculty of Engineering,Water Resources Engineering,200 Level,GFE205,Fundamentals of Fluid Mechanics,true
+Faculty of Engineering,Water Resources Engineering,200 Level,GFE299,SWEP: Students Industrial Work Experience (SIWES I),true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE301,Engineering Geology,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE302,Public Health Engineering,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE303,Hydraulics and Hydrology I,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE304,Civil Engineering Material,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE305,Mechanics of Materials,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE306,Fluid Mechanics,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE311,Soil Mechanics,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE312,Design of Structures,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE313,Structural Mechanics,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE314,Engineering Surveying & Photogrammetry,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WRE315,Hydraulics and Hydrology II,true
+Faculty of Engineering,Water Resources Engineering,400 Level,WRE401,Soil Mechanics and Foundation,true
+Faculty of Engineering,Water Resources Engineering,400 Level,WRE402,Design of Hydraulic Structures,true
+Faculty of Engineering,Water Resources Engineering,400 Level,WRE403,Hydraulics and Hydrology II,true
+Faculty of Engineering,Water Resources Engineering,400 Level,WRE404,Quantity Surveying,true
+Faculty of Engineering,Water Resources Engineering,400 Level,WRE406,River Mechanics and Sediment Transport,true
+Faculty of Engineering,Water Resources Engineering,400 Level,WRE421,Laboratory Practical Works,true
+Faculty of Engineering,Water Resources Engineering,500 Level,WRE501,Design of Treatment Plants,true
+Faculty of Engineering,Water Resources Engineering,500 Level,WRE502,Hydro-Geology (Groundwater Hydrology),true
+Faculty of Engineering,Water Resources Engineering,500 Level,WRE503,Pollution Control,true
+Faculty of Engineering,Water Resources Engineering,500 Level,WRE504,Drainage and Irrigation,true
+Faculty of Engineering,Water Resources Engineering,500 Level,WRE511,Drainage and Irrigation Engineering,true
+Faculty of Engineering,Water Resources Engineering,500 Level,WRE512,Systems Management (Operations Research),true
+Faculty of Engineering,Water Resources Engineering,500 Level,WRE513,Water and Waste Water Engineering,true
+Faculty of Engineering,Water Resources Engineering,500 Level,WRE522,Laboratory Practical Works,true
+Faculty of Engineering,Water Resources Engineering,500 Level,WRE599,Final Year Project,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WTE303,Hydraulics and Hydrology I,true
+Faculty of Engineering,Water Resources Engineering,300 Level,WTE311,Public Health Engineering,true
+Faculty of Engineering,Water Resources Engineering,400 Level,WTE401,Soil Mechanics and Foundation Engineering,true
+Faculty of Engineering,Water Resources Engineering,400 Level,WTE402,Design of Hydraulics Structures,true
+Faculty of Engineering,Water Resources Engineering,400 Level,WTE403,Hydraulics and Hydrology II,true

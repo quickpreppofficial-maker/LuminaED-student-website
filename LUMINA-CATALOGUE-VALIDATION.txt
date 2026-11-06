@@ -1,0 +1,27 @@
+LUMINA COURSE CATALOGUE VALIDATION — 2026-11-06
+
+Source departments supplied: 7
+Distinct course records packaged: 680
+
+Department totals in the packaged CSV:
+- Chemical Engineering: 119
+- Civil Engineering: 99
+- Computer Engineering: 49
+- Electrical Engineering (source heading: Electrical / Electronics Engineering): 116 distinct rows
+- Mechanical Engineering: 147
+- Mechatronics Engineering: 104
+- Water Resources Engineering: 46
+
+The Electrical/Electronics source table stated 117 entries. The packaged catalogue contains 116 distinct department/level/course-code/title records for that department because exact repeated records are de-duplicated when generating the CSV. Distinct codes, including trailing-hyphen variants, are retained.
+
+Level convention:
+The first digit of the first three-digit numeric sequence in each supplied course code determines level: 1xx=100 Level, 2xx=200 Level, 3xx=300 Level, 4xx=400 Level, 5xx=500 Level. No semester is assigned. This is a code-derived convention, not a semester or official curriculum assertion.
+
+Files:
+- LUMINA-official-course-catalogue.csv: reviewable row-level catalogue.
+- LUMINA-import-official-engineering-courses.sql: idempotent import/upsert for public.courses.
+- LUMINA-course-registration-schema-fix.sql: idempotent course-selection/alias schema and RLS policies.
+- LUMINA-engineering-department-aliases.sql: standalone alias upsert.
+
+Operational status:
+The archive is prepared locally. No Supabase query was executed and no GitHub deployment/commit was performed.

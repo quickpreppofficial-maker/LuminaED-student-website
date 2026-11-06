@@ -41,3 +41,38 @@ COURSE DISPLAY QUERY FIX (2026-11-06)
 5. Study Tools displays the signed-in student's saved selections for the current faculty, department and level only.
 6. Saving a selection modifies only rows belonging to the catalogue currently displayed; selections from other levels/departments are preserved.
 7. Supabase RLS policies and table grants were inspected and are present for authenticated course reads and student-owned registration/selections. The browser flow still requires a signed-in end-to-end test on the deployed site.
+
+NOVEMBER 6, 2026 — STUDY TOOLS SELECTED-COURSE CARD LAYOUT FIX
+- Reworked the selected-course cards in study-tools.html only; registration/selection checkboxes were not restyled as part of this change.
+- Removed the nested course-grid wrapper that caused the selected-course layout to size incorrectly inside its parent grid.
+- Selected courses now render as direct grid children with a two-column desktop layout and a single-column mobile layout.
+- Course codes and titles are displayed separately. Long titles wrap within the card, with min-width/overflow-wrap safeguards to prevent text escaping card boundaries.
+- Added consistent card spacing, padding, border, subtle background, and a full-width action row.
+- Preserved the existing saved-selection query and filter behaviour; this is a presentation fix, not a database change.
+
+Validation performed on this ZIP:
+- Node syntax checks passed for all 7 standalone JavaScript files and the inline Study Tools script.
+- HTML local-reference and duplicate-ID scan passed across all 16 HTML files.
+- No Supabase schema, course rows, or student selections were modified.
+
+
+OFFICIAL ENGINEERING COURSE CATALOGUE IMPORT (2026-11-06)
+- Added 680 supplied catalogue records across seven departments.
+- Department record counts (as pasted):
+  * Chemical Engineering: 119 entries
+  * Civil Engineering: 99 entries
+  * Computer Engineering: 49 entries
+  * Electrical Engineering: 116 entries
+  * Mechanical Engineering: 147 entries
+  * Mechatronics Engineering: 104 entries
+  * Water Resources Engineering: 46 entries
+- Files: LUMINA-official-course-catalogue.csv (reviewable source data), LUMINA-import-official-engineering-courses.sql (idempotent Supabase import), and LUMINA-engineering-department-aliases.sql (optional name aliases).
+- Course levels are assigned from the first digit of the three-digit numeric portion of each supplied code. No semester is assigned. This is a convention-based mapping and should be checked against the institution's official level mapping if any exceptions exist.
+- All distinct source codes are preserved, including trailing-hyphen codes. This may mean parallel entries appear when the source itself listed both variants.
+- IMPORTANT: These files are packaged locally only. They have NOT been executed against Supabase and nothing has been deployed to GitHub.
+
+
+COURSE REGISTRATION SCHEMA CHECK (2026-11-06)
+- Added LUMINA-course-registration-schema-fix.sql to create/repair the department_aliases and student_course_selections tables, indexes, and owner-scoped RLS policies idempotently. Run it after LUMINA-database-additions.sql and before importing course rows.
+- Registration selections are unique per student/course. Students can read, insert, and delete only their own selections.
+- The import is a separate step and is not executed by opening the website.
