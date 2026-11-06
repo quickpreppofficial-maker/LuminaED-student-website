@@ -32,6 +32,12 @@
     })[char]);
   }
 
+  function canonicalFacultyName(value) {
+    const cleaned = value.trim().replace(/\s+/g, ' ');
+    if (/^(faculty of engineering( and technology)?( \(fet\))?|fet)$/i.test(cleaned)) return 'Faculty of Engineering';
+    return cleaned;
+  }
+
   function canonicalDepartmentName(value) {
     const cleaned = value.trim().replace(/\s+/g, ' ');
     if (/^electrical\s*(\/|\/\s*)\s*electronics\s*engineering$/i.test(cleaned) ||
@@ -65,14 +71,15 @@
 
   async function getCourses(faculty, department, level) {
     const departmentNames = await getDepartmentNamesForQuery(department);
+    const canonicalFaculty = canonicalFacultyName(faculty);
+    const facultyNames = [...new Set([faculty.trim(), canonicalFaculty])];
     const { data, error } = await supabase
       .from('courses')
-      .select('id,faculty,department,level,course_code,course_title,semester')
-      .eq('faculty', faculty)
+      .select('id,faculty,department,level,course_code,course_title')
+      .in('faculty', facultyNames)
       .in('department', departmentNames)
       .eq('level', level)
       .eq('is_active', true)
-      .order('semester', { ascending: true, nullsFirst: false })
       .order('course_code', { ascending: true });
 
     if (error) throw error;
@@ -96,29 +103,19 @@
       return;
     }
 
-    const groups = new Map();
-    for (const course of availableCourses) {
-      const semester = course.semester || 'Semester not assigned';
-      if (!groups.has(semester)) groups.set(semester, []);
-      groups.get(semester).push(course);
-    }
-
-    courseList.innerHTML = [...groups.entries()].map(([semester, courses]) => `
-      <section class="semester-group">
-        <h3>${escapeHtml(semester)}</h3>
-        <div class="course-grid">
-          ${courses.map(course => {
-            const checked = savedSelectionIds.has(String(course.id));
-            return `<label class="course-choice ${checked ? 'is-selected' : ''}">
-              <input class="course-checkbox" type="checkbox" value="${escapeHtml(course.id)}" ${checked ? 'checked' : ''}>
-              <span class="choice-copy">
-                <strong>${escapeHtml(course.course_code)}</strong>
-                <span>${escapeHtml(course.course_title)}</span>
-              </span>
-            </label>`;
-          }).join('')}
-        </div>
-      </section>`).join('');
+    courseList.innerHTML = `
+      <div class="course-grid">
+        ${availableCourses.map(course => {
+          const checked = savedSelectionIds.has(String(course.id));
+          return `<label class="course-choice ${checked ? 'is-selected' : ''}">
+            <input class="course-checkbox" type="checkbox" value="${escapeHtml(course.id)}" ${checked ? 'checked' : ''}>
+            <span class="choice-copy">
+              <strong>${escapeHtml(course.course_code)}</strong>
+              <span>${escapeHtml(course.course_title)}</span>
+            </span>
+          </label>`;
+        }).join('')}
+      </div>`;
 
     courseList.querySelectorAll('.course-checkbox').forEach(input => {
       input.addEventListener('change', () => {
@@ -181,8 +178,10 @@
       if (existingError) throw existingError;
 
       const chosenSet = new Set(chosenIds.map(String));
+      // Change only selections belonging to the catalogue currently on screen.
+      // Preserve any saved selections from other levels/departments.
       const removeRows = (existing || []).filter(row =>
-        !chosenSet.has(String(row.course_id)) || !availableIds.has(String(row.course_id))
+        availableIds.has(String(row.course_id)) && !chosenSet.has(String(row.course_id))
       );
       const existingCourseIds = new Set((existing || []).map(row => String(row.course_id)));
       const addIds = chosenIds.filter(id => !existingCourseIds.has(String(id)));
@@ -232,8 +231,8 @@
     if (error) throw error;
 
     if (profile) {
-      form.elements.faculty.value = profile.faculty || '';
-      form.elements.department.value = profile.department || '';
+      form.elements.faculty.value = canonicalFacultyName(profile.faculty || '');
+      form.elements.department.value = canonicalDepartmentName(profile.department || '');
       form.elements.level.value = profile.level || '';
       setStatus(status, 'Your saved academic details are loaded.');
       await loadCourseSelection();
@@ -241,8 +240,8 @@
 
     form.addEventListener('submit', async event => {
       event.preventDefault();
-      const faculty = form.elements.faculty.value.trim();
-      const department = form.elements.department.value.trim();
+      const faculty = canonicalFacultyName(form.elements.faculty.value);
+      const department = canonicalDepartmentName(form.elements.department.value);
       const level = form.elements.level.value;
       if (!faculty || !department || !['100 Level', '200 Level', '300 Level', '400 Level', '500 Level'].includes(level)) {
         setStatus(status, 'Enter your faculty and department, and select a level from 100 to 500.', 'error');

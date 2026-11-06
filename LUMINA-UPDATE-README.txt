@@ -31,3 +31,13 @@ UPDATED COURSE REGISTRATION FLOW (2026-11-05)
 5. Study Tools now displays the student's saved course selections and provides a link to update them. A null semester is displayed as “Semester not assigned”; the code does not guess semester allocations.
 6. The live Supabase database must contain student_academic_profiles, courses, department_aliases and student_course_selections with the RLS policies already configured for this project. Do not put a Supabase service-role key in browser files.
 7. The department field remains editable because the authoritative faculties-and-departments list has not yet been supplied. Once supplied, it can replace free-text entry with verified department choices.
+
+
+COURSE DISPLAY QUERY FIX (2026-11-06)
+1. Course retrieval no longer selects, orders by, groups by, or requires the semester column.
+2. Registration displays all matching active courses in one selectable catalogue.
+3. Faculty name compatibility maps Faculty of Engineering and Technology (FET), Faculty of Engineering and FET to the canonical database value Faculty of Engineering.
+4. Electrical/Electronics Engineering naming variants resolve to the existing Electrical Engineering catalogue.
+5. Study Tools displays the signed-in student's saved selections for the current faculty, department and level only.
+6. Saving a selection modifies only rows belonging to the catalogue currently displayed; selections from other levels/departments are preserved.
+7. Supabase RLS policies and table grants were inspected and are present for authenticated course reads and student-owned registration/selections. The browser flow still requires a signed-in end-to-end test on the deployed site.
