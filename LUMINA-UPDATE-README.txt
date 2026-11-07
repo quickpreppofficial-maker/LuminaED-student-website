@@ -86,3 +86,11 @@ COURSE SELECTION SAVE / UNSAVE UPDATE (6 NOV 2026)
 - Study Tools includes saved shared General Engineering courses.
 - Supabase RLS insert policy was updated to allow valid shared General Engineering course selections while retaining user, faculty, level, active-course, and department restrictions.
 - Existing saved selections were preserved; no student selection rows were cleared.
+
+
+GFE-306 COURSE MATERIALS UPDATE (2026-11-07)
+- Added the supplied original GFE/GEE 306 lecture-note PDF at materials/GFE_306_Original.pdf. The original is preserved unchanged.
+- Added the expanded 48-page LUMINA Comprehensive Edition at materials/GFE_306_Comprehensive.pdf. This is the expanded teaching edition, not the earlier short summary.
+- Updated Study Tools so a matching GFE-306 course card expands to show Original and Comprehensive edition links. Existing GFE-307 Original/Simplified links remain intact.
+- No course catalogue rows, course codes, student registrations, or Supabase settings were changed. The GFE-306 card appears only when the student's matching GFE-306 course row is present in the active catalogue.
+- The source PDF's opening page uses the variant “GEE 306”; the expanded edition records this discrepancy and recommends confirming the official code.
