@@ -94,3 +94,21 @@ GFE-306 COURSE MATERIALS UPDATE (2026-11-07)
 - Updated Study Tools so a matching GFE-306 course card expands to show Original and Comprehensive edition links. Existing GFE-307 Original/Simplified links remain intact.
 - No course catalogue rows, course codes, student registrations, or Supabase settings were changed. The GFE-306 card appears only when the student's matching GFE-306 course row is present in the active catalogue.
 - The source PDF's opening page uses the variant “GEE 306”; the expanded edition records this discrepancy and recommends confirming the official code.
+
+
+UPDATE — SHARED GFE-306 / GFE-307 VISIBILITY (7 NOVEMBER 2026)
+----------------------------------------------------------------
+Updated study-tools.html so GFE-306 and GFE-307 are fetched as shared
+300 Level Faculty of Engineering courses without a department filter.
+The student's normal department-specific course query remains unchanged;
+only these two explicitly shared course codes are added across Engineering.
+The shared-course query still requires an authenticated session, Faculty of
+Engineering, 300 Level, and is_active = true. It uses the existing course
+rows; it does not create duplicate course records or alter the catalogue.
+
+After deploying the updated study-tools.html, test with 300 Level student
+accounts from Electrical, Mechanical, Civil, Mechatronics, Computer, Chemical,
+and Water Resources Engineering. If a course still does not appear, verify
+that the matching GFE-306/GFE-307 row exists in public.courses, is_active is
+true, faculty is exactly Faculty of Engineering, and the authenticated SELECT
+policy permits reading active courses.

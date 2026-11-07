@@ -23,13 +23,30 @@
     if(ae)console.warn('Department aliases:',ae.message);
     const departments=[...new Set([clean(p.department),canonical,...(aliases||[]).map(a=>a.alias)])];
     const faculties=[...new Set([clean(p.faculty),canonicalFaculty(p.faculty)])];
-    const {data:rows,error}=await c.from('courses').select('course_code,course_title,level')
+    const {data:departmentRows,error}=await c.from('courses').select('course_code,course_title,level')
       .in('faculty',faculties).in('department',departments).eq('level',p.level).eq('is_active',true).order('course_code',{ascending:true});
     if(error)throw error;
-    const unique=new Map();(rows||[]).forEach(r=>{const k=clean(r.course_code).toUpperCase()+'|'+clean(r.course_title).toLowerCase();if(!unique.has(k))unique.set(k,r);});
+
+    // GFE-306 and GFE-307 are shared 300 Level Engineering courses.
+    // Their catalogue rows may be stored under a particular department, so
+    // retrieve these two approved shared codes without filtering by department.
+    // This makes them visible to eligible students across Engineering while
+    // leaving every department's other course list unchanged.
+    let sharedRows=[];
+    if(clean(p.faculty).toLowerCase().includes('engineering') && clean(p.level).toLowerCase()==='300 level'){
+      const {data:shared,error:sharedError}=await c.from('courses')
+        .select('course_code,course_title,level')
+        .in('faculty',faculties)
+        .in('course_code',['GFE306','GFE-306','GFE307','GFE-307'])
+        .eq('level','300 Level')
+        .eq('is_active',true);
+      if(sharedError)throw sharedError;
+      sharedRows=shared||[];
+    }
+    const unique=new Map();[...(departmentRows||[]),...sharedRows].forEach(r=>{const k=clean(r.course_code).toUpperCase().replace(/[^A-Z0-9]/g,'')+'|'+clean(r.course_title).toLowerCase();if(!unique.has(k))unique.set(k,r);});
     const courses=[...unique.values()];
     if(!courses.length){box.innerHTML='<div class="empty">No courses have been uploaded for this programme and level yet. They will appear here automatically when the official catalogue is added.</div>';return;}
-    box.innerHTML=courses.map(r=>{const code=clean(r.course_code).toUpperCase().replace(/[^A-Z0-9]/g,'');if(code==='GFE307'||code==='GFE306'){const materialLinks=code==='GFE306'?'<a class="material-link" href="materials/GFE_306_Original.pdf" target="_blank" rel="noopener">Original</a><a class="material-link" href="materials/GFE_306_Comprehensive.pdf" target="_blank" rel="noopener">Simplified</a>':'<a class="material-link" href="materials/GFE_307_Original.pdf" target="_blank" rel="noopener">Original</a><a class="material-link" href="materials/GFE_307_Simplified.pdf" target="_blank" rel="noopener">Simplified</a>';return `<details class="course-card course-card-expand"><summary class="course-card-summary"><span class="course-code">${esc(r.course_code)}</span><h3 class="course-title">${esc(r.course_title)}</h3><span class="course-level">${esc(r.level)}</span><span class="course-open-hint">Tap to open course materials <span aria-hidden="true">⌄</span></span></summary><div class="course-materials"><p class="course-materials-label">Choose a version to open</p>${materialLinks}</div></details>`;}return `<article class="course-card"><span class="course-code">${esc(r.course_code)}</span><h3 class="course-title">${esc(r.course_title)}</h3><span class="course-level">${esc(r.level)}</span></article>`;}).join('');
+    box.innerHTML=courses.map(r=>{const code=clean(r.course_code).toUpperCase().replace(/[^A-Z0-9]/g,'');if(code==='GFE307'||code==='GFE306'){const materialLinks=code==='GFE306'?'<a class="material-link" href="materials/GFE_306_Original.pdf" target="_blank" rel="noopener">Original</a><a class="material-link" href="materials/GFE_306_Comprehensive.pdf" target="_blank" rel="noopener">Comprehensive edition</a>':'<a class="material-link" href="materials/GFE_307_Original.pdf" target="_blank" rel="noopener">Original</a><a class="material-link" href="materials/GFE_307_Simplified.pdf" target="_blank" rel="noopener">Simplified</a>';return `<details class="course-card course-card-expand"><summary class="course-card-summary"><span class="course-code">${esc(r.course_code)}</span><h3 class="course-title">${esc(r.course_title)}</h3><span class="course-level">${esc(r.level)}</span><span class="course-open-hint">Tap to open course materials <span aria-hidden="true">⌄</span></span></summary><div class="course-materials"><p class="course-materials-label">Choose a version to open</p>${materialLinks}</div></details>`;}return `<article class="course-card"><span class="course-code">${esc(r.course_code)}</span><h3 class="course-title">${esc(r.course_title)}</h3><span class="course-level">${esc(r.level)}</span></article>`;}).join('');
   }catch(error){console.error('Study Tools course loading:',error);box.innerHTML='<div class="empty">Your courses could not be loaded: '+esc(error.message||'Unknown database error')+'. Please refresh or contact support.</div><a class="action" href="register-department.html">Update academic registration</a>';}
 })();
 </script></body></html>
