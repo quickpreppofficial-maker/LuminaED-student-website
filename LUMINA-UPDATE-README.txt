@@ -76,3 +76,13 @@ COURSE REGISTRATION SCHEMA CHECK (2026-11-06)
 - Added LUMINA-course-registration-schema-fix.sql to create/repair the department_aliases and student_course_selections tables, indexes, and owner-scoped RLS policies idempotently. Run it after LUMINA-database-additions.sql and before importing course rows.
 - Registration selections are unique per student/course. Students can read, insert, and delete only their own selections.
 - The import is a separate step and is not executed by opening the website.
+
+COURSE SELECTION SAVE / UNSAVE UPDATE (6 NOV 2026)
+- Course registration now displays the student's department courses plus shared General Engineering courses marked is_general=true.
+- The list is de-duplicated by course row ID.
+- Saved courses are checked when the page loads; unsaved courses remain unchecked.
+- “Save my courses” stores the currently checked choices. Unchecking courses and saving removes those choices from the current displayed catalogue.
+- “Unsave my courses” removes saved choices only for the courses currently displayed; saved choices from other levels/departments are preserved.
+- Study Tools includes saved shared General Engineering courses.
+- Supabase RLS insert policy was updated to allow valid shared General Engineering course selections while retaining user, faculty, level, active-course, and department restrictions.
+- Existing saved selections were preserved; no student selection rows were cleared.

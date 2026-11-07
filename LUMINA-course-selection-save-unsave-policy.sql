@@ -1,0 +1,4 @@
+-- Deprecated: LUMINA no longer uses manual course selections.
+-- Students register faculty, department and level in student_academic_profiles.
+-- The frontend reads matching active rows directly from public.courses.
+-- Do not recreate student_course_selections policies for the automatic workflow.

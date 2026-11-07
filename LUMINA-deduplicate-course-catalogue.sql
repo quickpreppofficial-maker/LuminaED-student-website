@@ -1,0 +1,5 @@
+-- Deprecated historical script: do not run for the current LUMINA workflow.
+-- LUMINA now displays all active courses matching the student's registered
+-- faculty, department and level directly from public.courses.
+-- Manual course-selection records and selection controls are no longer used.
+-- The next official catalogue import will be prepared from the user's tables.
