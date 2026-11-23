@@ -1,0 +1,27 @@
+LUMINAED VISUAL AUDIT + PRE-WEB-APP POLISH
+Date: 23 November 2026
+
+VISUAL CHANGES
+- Added lumina-polish.css and linked it as the final stylesheet on user-facing HTML pages (test-only diagnostic pages excluded).
+- Harmonized palette across landing, authentication, dashboard, account, administration, and course/tool pages: deep navy, slate-blue, muted teal, off-white surfaces, readable gray text, and a restrained warm accent.
+- Corrected light/dark text pairings and surface contrast for landing copy, signup/login form text, cards, links, course codes, course material buttons, utility page headings, and footer text.
+- Refined card hover behavior with restrained movement and consistent transitions; reduced-motion preferences disable animation and transitions.
+- Added consistent keyboard focus visibility and touch behavior; added small-screen spacing adjustments for forms and material buttons.
+- Preserved page wording, course/catalogue logic, database scripts, assets, and material link targets. This is a visual/CSS pass; no database operation or deployment was performed.
+
+AUTH EMAIL STATUS — IMPORTANT
+- User reports Resend works for password-reset/retrieval emails, but account-authentication/confirmation emails do not.
+- Password reset and signup confirmation are separate Auth email flows/templates. A successful reset email does not prove the signup confirmation template or trigger path is configured correctly.
+- No auth code or SMTP settings were changed during this visual pass.
+- Next auth troubleshooting: inspect Supabase Auth > SMTP/provider configuration and logs for a signup confirmation attempt; inspect the Confirmation/Signup email template's action URL and redirect; verify the deployed confirmation redirect URL is allow-listed. Compare the failing signup event to the successful reset event in logs. Avoid exposing SMTP/API secrets.
+
+VALIDATION
+- Node syntax checks passed for the project JavaScript files.
+- HTML local-reference scan passed (no broken local href/src references detected in non-diagnostic pages).
+- Duplicate HTML IDs scan passed for non-diagnostic pages.
+- Browser-based screenshot, cross-device visual testing, and live Auth email delivery testing were not available in this environment; this package is ready for manual preview, not represented as fully launch-tested.
+
+NEXT PRIORITY
+1. Preview the updated visual package on phone and desktop and report any remaining anomalies.
+2. Resolve signup confirmation email delivery (Resend/Supabase Auth configuration) separately from password-reset delivery.
+3. Begin web-app conversion before the remaining feature/course work, as requested.
