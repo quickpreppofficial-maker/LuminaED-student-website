@@ -1,0 +1,9 @@
+LuminaED Study Tools repair
+
+Changes applied to study-tools.html only:
+- Courses are grouped into FIRST SEMESTER and SECOND SEMESTER sections; no selector.
+- Newest duplicate course record is retained per normalized course code and semester for display.
+- GFE 307 Original and Simplified material buttons/relative PDF paths are preserved.
+- The two existing GFE 307 PDFs are included unchanged in materials/.
+
+A separate SQL file targets GFE 306/307 records with an unassigned semester. Review its SELECT preview before executing it in Supabase. The ZIP packaging does not execute database deletion.
